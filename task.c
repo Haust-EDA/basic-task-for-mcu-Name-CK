@@ -46,7 +46,7 @@ int main(void)
 
 /*方式2*/
 #else
-    while (0) // 不执行
+    while (1)
     {
         P0 = 0x7F; // 0111 1111
         delay_ms(500);
