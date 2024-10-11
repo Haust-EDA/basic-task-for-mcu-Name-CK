@@ -28,7 +28,7 @@ int main(void)
     P1^2 = 1;
 
 // 流水灯
-#define Use_Mode1
+#define Use_Mode1//不定义Use_Mode1则使用方式2
 
 /*方式1*/
 #ifdef Use_Mode1
